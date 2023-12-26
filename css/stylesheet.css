@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+}
+
+#anchors {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}

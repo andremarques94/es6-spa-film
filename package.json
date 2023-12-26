@@ -1,0 +1,15 @@
+{
+  "name": "es6-spa",
+  "version": "1.0.0",
+  "description": "SPA with History API routing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "http-server"
+  },
+  "author": "NOZK",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
