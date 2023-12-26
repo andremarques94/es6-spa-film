@@ -2,7 +2,15 @@ const render = (onClick) => {
 
     const container = document.querySelector('#container');
     const button = document.createElement('button');
+    const div = document.createElement('div');
 
+    div.className = `text-center`;
+    button.className = `btn btn-primary`;
+    button.type = `button`;
+    button.style = `margin-top: 10%; margin-bottom: 10%`;
+
+    div.appendChild(button);
+    
     container.innerHTML = ''; //removes the previous elements
     button.innerText = `CLICK ME FOR RANDOM MOVIE`;
 
@@ -11,6 +19,7 @@ const render = (onClick) => {
 
         const {title, year, director, imdbRating: rating} = await onClick(parseInt((Math.random() * 6)));
         const elem = document.createElement('div');
+        elem.className = `text-center`;
 
         elem.innerHTML = `<h1>${title}</h1>
         <h3>${year}</h3>
@@ -25,7 +34,7 @@ const render = (onClick) => {
     })
 
 
-    container.appendChild(button);
+    container.appendChild(div);
 }
 
 
