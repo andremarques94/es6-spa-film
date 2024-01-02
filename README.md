@@ -2,12 +2,14 @@
 
 
 ## Changes
-**Not using hash-based routing.** 
-**Using the History API instead.**
-**Using ES6 modules instead of RequireJS.**
-**Still using MVC, but I read about Component patterns and am investigating if it should be a thing.**
-**Ready to consume an external movie API like IMDb** , but decided not to do it so that students can read about fetch and do it themselves. 
-**Using dynamic imports.**
+
+ - **Not using hash-based routing.** 
+ -	**Using the History API instead.**
+ -  **Using ES6 modules instead of RequireJS.**
+ -  **Still using MVC, but I read about Component patterns and am investigating if it should be a thing.**
+ -  **Ready to consume an external movie API like IMDb** , but decided not to do it so that students can read about fetch and do it
+   themselves. 
+ -  **Using dynamic imports.**
 
 Some decisions had to change based on the way the History API works:
 
@@ -17,9 +19,9 @@ Some decisions had to change based on the way the History API works:
     
 
 ## TODOS
-**Investigate about Component Patterns and understand if it should be implemented**
-**Complete more controllers and views.** 
-**Add some better CSS**
-**Decide if jQuery should be used.**
+- **Investigate about Component Patterns and understand if it should be implemented**
+- **Complete more controllers and views.** 
+- **Add some better CSS**
+- **Decide if jQuery should be used.**
 
 
