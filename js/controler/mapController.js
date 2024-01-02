@@ -1,7 +1,7 @@
-import mapView from "../view/mapView.js";
+import mapView from '../view/mapView.js';
 
 const init = () => {
-    mapView.render(); 
-  };
-  
-  export default { init };
+    mapView.render();
+};
+
+export default { init };

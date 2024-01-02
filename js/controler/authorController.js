@@ -1,7 +1,7 @@
-import authorView from "../view/authorView.js";
+import authorView from '../view/authorView.js';
 
 const init = () => {
-  authorView.render(); 
+    authorView.render();
 };
-  
-  export default { init };
+
+export default { init };

@@ -1,7 +1,7 @@
-import aboutView from "../view/aboutView.js";
+import aboutView from '../view/aboutView.js';
 
 const init = () => {
-  aboutView.render(); 
+    aboutView.render();
 };
-  
-  export default { init };
+
+export default { init };
